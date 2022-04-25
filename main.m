@@ -602,7 +602,7 @@ xticklabels({'Inceptisols','Andisols', 'Entisol','Spodosols','Vertisol','Molliso
 %TODO : Stepwise linear regression
 
 
-%%
+%{
 
 %%Find any relation between paleoclimatic parameters and soil Geochemistry 
 
@@ -849,3 +849,4 @@ scatter(temp_seasonality, numbers(:,60), 50, numbers(:,12), 'filled');
 title('Seasonality v/s PWI');
 xlabel('PWI')
 ylabel('Seasonality')
+%}
